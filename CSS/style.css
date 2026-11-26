@@ -57,7 +57,7 @@ body{
 
 h1{
 text-align: center;
-    font-size: 64px;
+    font-size: 100px;
     font-family: "poppins_bold", sans-serif;
     line-height: 70px;
     margin-top: 60px;
@@ -66,11 +66,13 @@ text-align: center;
 }
 
 p{
+    
     font-family: "poppins_light", sans-serif;
     text-align: center;
     font-size: 24px;
     text-align: center;
-    margin: 24px auto 0;    
+    margin: 40px auto 0;   
+      line-height: 27px; 
     width: 792px;
 }
 
