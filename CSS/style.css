@@ -1,0 +1,174 @@
+/* definição de fontes */
+@font-face {
+    font-family: poppins_bold;
+    src: url(../fonts/Poppins-Bold.ttf)
+    format("truetype");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+
+}
+
+@font-face {
+    font-family: poppins_light;
+    src: url(../fonts/Poppins-Light.ttf)
+    format("truetype");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+
+}
+
+/* reset */
+*{
+
+/* Reset CSS de Eric Meyer - versão reduzida */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+}
+
+
+ /* Estilo desktop */
+body{
+
+    background-color: #08010c;
+    color: #FFFFFF;
+}
+
+
+h1{
+text-align: center;
+    font-size: 64px;
+    font-family: "poppins_bold", sans-serif;
+    line-height: 70px;
+    margin-top: 60px;
+
+
+}
+
+p{
+    font-family: "poppins_light", sans-serif;
+    text-align: center;
+    font-size: 24px;
+    text-align: center;
+    margin: 24px auto 0;    
+    width: 792px;
+}
+
+header img{
+display: block;
+margin: 75px 0 0 360px;
+
+}
+
+h1 span {color: blueviolet;}
+
+p span {color: rgb(214, 17, 240);}
+
+a{
+color: #FFFFFF;
+font-size: 24px;
+font-family: "poppins_light", sans-serif;
+text-decoration: none;
+background-color: blueviolet ;
+width: 340px;
+height: 66px;
+display: block;
+text-align: center;
+line-height: 66px;
+border-radius: 36px;
+
+margin: 40px auto
+
+}
+
+a:hover{
+background-color: rgb(169, 98, 236) ;
+
+}
+
+section img{
+
+display: block;
+width: 792px;
+height: 446px;
+margin: 0 auto;
+
+}
+
+/* Tablets */
+@media(max-width: 768px){
+
+    body{
+
+       header img {
+margin: 65px 0 0 60px;
+
+       }
+
+       p{
+
+        width: 648px;
+
+       }
+
+    }
+
+}
+
+
+
+
+/* Celulares */
+@media (max-width:375px) {
+
+    body{
+
+       header img {
+margin: 32px 0 0 16px;
+       }
+
+       h1{
+        font-size: 40px;
+       }
+
+       p{
+        font-size: 20px;
+        width: 340px;
+       }
+
+       a{
+        font-size: 20px;
+        width: 251px;
+
+       }
+
+    }
+
+section img{
+
+    width: 340px;
+    height: 230px;
+
+}
+    
+}
